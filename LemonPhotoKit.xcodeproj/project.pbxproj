@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3115D2781C9275B600EDA3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115D2771C9275B600EDA3EF /* main.m */; };
+		3115D27B1C9275B600EDA3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115D27A1C9275B600EDA3EF /* AppDelegate.m */; };
+		3115D27E1C9275B600EDA3EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115D27D1C9275B600EDA3EF /* ViewController.m */; };
+		3115D2811C9275B600EDA3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3115D27F1C9275B600EDA3EF /* Main.storyboard */; };
+		3115D2831C9275B600EDA3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3115D2821C9275B600EDA3EF /* Assets.xcassets */; };
+		3115D2861C9275B600EDA3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3115D2841C9275B600EDA3EF /* LaunchScreen.storyboard */; };
+		3115D2911C9275B600EDA3EF /* LemonPhotoKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115D2901C9275B600EDA3EF /* LemonPhotoKitTests.m */; };
+		3115D29C1C9275B600EDA3EF /* LemonPhotoKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115D29B1C9275B600EDA3EF /* LemonPhotoKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3115D28D1C9275B600EDA3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3115D26B1C9275B500EDA3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3115D2721C9275B600EDA3EF;
+			remoteInfo = LemonPhotoKit;
+		};
+		3115D2981C9275B600EDA3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3115D26B1C9275B500EDA3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3115D2721C9275B600EDA3EF;
+			remoteInfo = LemonPhotoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3115D2731C9275B600EDA3EF /* LemonPhotoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonPhotoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3115D2771C9275B600EDA3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3115D2791C9275B600EDA3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3115D27A1C9275B600EDA3EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3115D27C1C9275B600EDA3EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3115D27D1C9275B600EDA3EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3115D2801C9275B600EDA3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3115D2821C9275B600EDA3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3115D2851C9275B600EDA3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3115D2871C9275B600EDA3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3115D28C1C9275B600EDA3EF /* LemonPhotoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonPhotoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3115D2901C9275B600EDA3EF /* LemonPhotoKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonPhotoKitTests.m; sourceTree = "<group>"; };
+		3115D2921C9275B600EDA3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3115D2971C9275B600EDA3EF /* LemonPhotoKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonPhotoKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3115D29B1C9275B600EDA3EF /* LemonPhotoKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonPhotoKitUITests.m; sourceTree = "<group>"; };
+		3115D29D1C9275B600EDA3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3115D2701C9275B600EDA3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D2891C9275B600EDA3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D2941C9275B600EDA3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3115D26A1C9275B500EDA3EF = {
+			isa = PBXGroup;
+			children = (
+				3115D2751C9275B600EDA3EF /* LemonPhotoKit */,
+				3115D28F1C9275B600EDA3EF /* LemonPhotoKitTests */,
+				3115D29A1C9275B600EDA3EF /* LemonPhotoKitUITests */,
+				3115D2741C9275B600EDA3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3115D2741C9275B600EDA3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3115D2731C9275B600EDA3EF /* LemonPhotoKit.app */,
+				3115D28C1C9275B600EDA3EF /* LemonPhotoKitTests.xctest */,
+				3115D2971C9275B600EDA3EF /* LemonPhotoKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3115D2751C9275B600EDA3EF /* LemonPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				3115D2791C9275B600EDA3EF /* AppDelegate.h */,
+				3115D27A1C9275B600EDA3EF /* AppDelegate.m */,
+				3115D27C1C9275B600EDA3EF /* ViewController.h */,
+				3115D27D1C9275B600EDA3EF /* ViewController.m */,
+				3115D27F1C9275B600EDA3EF /* Main.storyboard */,
+				3115D2821C9275B600EDA3EF /* Assets.xcassets */,
+				3115D2841C9275B600EDA3EF /* LaunchScreen.storyboard */,
+				3115D2871C9275B600EDA3EF /* Info.plist */,
+				3115D2761C9275B600EDA3EF /* Supporting Files */,
+			);
+			path = LemonPhotoKit;
+			sourceTree = "<group>";
+		};
+		3115D2761C9275B600EDA3EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3115D2771C9275B600EDA3EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3115D28F1C9275B600EDA3EF /* LemonPhotoKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3115D2901C9275B600EDA3EF /* LemonPhotoKitTests.m */,
+				3115D2921C9275B600EDA3EF /* Info.plist */,
+			);
+			path = LemonPhotoKitTests;
+			sourceTree = "<group>";
+		};
+		3115D29A1C9275B600EDA3EF /* LemonPhotoKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3115D29B1C9275B600EDA3EF /* LemonPhotoKitUITests.m */,
+				3115D29D1C9275B600EDA3EF /* Info.plist */,
+			);
+			path = LemonPhotoKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3115D2721C9275B600EDA3EF /* LemonPhotoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3115D2A01C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKit" */;
+			buildPhases = (
+				3115D26F1C9275B600EDA3EF /* Sources */,
+				3115D2701C9275B600EDA3EF /* Frameworks */,
+				3115D2711C9275B600EDA3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonPhotoKit;
+			productName = LemonPhotoKit;
+			productReference = 3115D2731C9275B600EDA3EF /* LemonPhotoKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3115D28B1C9275B600EDA3EF /* LemonPhotoKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3115D2A31C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKitTests" */;
+			buildPhases = (
+				3115D2881C9275B600EDA3EF /* Sources */,
+				3115D2891C9275B600EDA3EF /* Frameworks */,
+				3115D28A1C9275B600EDA3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3115D28E1C9275B600EDA3EF /* PBXTargetDependency */,
+			);
+			name = LemonPhotoKitTests;
+			productName = LemonPhotoKitTests;
+			productReference = 3115D28C1C9275B600EDA3EF /* LemonPhotoKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3115D2961C9275B600EDA3EF /* LemonPhotoKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3115D2A61C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKitUITests" */;
+			buildPhases = (
+				3115D2931C9275B600EDA3EF /* Sources */,
+				3115D2941C9275B600EDA3EF /* Frameworks */,
+				3115D2951C9275B600EDA3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3115D2991C9275B600EDA3EF /* PBXTargetDependency */,
+			);
+			name = LemonPhotoKitUITests;
+			productName = LemonPhotoKitUITests;
+			productReference = 3115D2971C9275B600EDA3EF /* LemonPhotoKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3115D26B1C9275B500EDA3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.chuangkit;
+				TargetAttributes = {
+					3115D2721C9275B600EDA3EF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3115D28B1C9275B600EDA3EF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3115D2721C9275B600EDA3EF;
+					};
+					3115D2961C9275B600EDA3EF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3115D2721C9275B600EDA3EF;
+					};
+				};
+			};
+			buildConfigurationList = 3115D26E1C9275B500EDA3EF /* Build configuration list for PBXProject "LemonPhotoKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3115D26A1C9275B500EDA3EF;
+			productRefGroup = 3115D2741C9275B600EDA3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3115D2721C9275B600EDA3EF /* LemonPhotoKit */,
+				3115D28B1C9275B600EDA3EF /* LemonPhotoKitTests */,
+				3115D2961C9275B600EDA3EF /* LemonPhotoKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3115D2711C9275B600EDA3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3115D2861C9275B600EDA3EF /* LaunchScreen.storyboard in Resources */,
+				3115D2831C9275B600EDA3EF /* Assets.xcassets in Resources */,
+				3115D2811C9275B600EDA3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D28A1C9275B600EDA3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D2951C9275B600EDA3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3115D26F1C9275B600EDA3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3115D27E1C9275B600EDA3EF /* ViewController.m in Sources */,
+				3115D27B1C9275B600EDA3EF /* AppDelegate.m in Sources */,
+				3115D2781C9275B600EDA3EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D2881C9275B600EDA3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3115D2911C9275B600EDA3EF /* LemonPhotoKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3115D2931C9275B600EDA3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3115D29C1C9275B600EDA3EF /* LemonPhotoKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3115D28E1C9275B600EDA3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3115D2721C9275B600EDA3EF /* LemonPhotoKit */;
+			targetProxy = 3115D28D1C9275B600EDA3EF /* PBXContainerItemProxy */;
+		};
+		3115D2991C9275B600EDA3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3115D2721C9275B600EDA3EF /* LemonPhotoKit */;
+			targetProxy = 3115D2981C9275B600EDA3EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3115D27F1C9275B600EDA3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3115D2801C9275B600EDA3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3115D2841C9275B600EDA3EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3115D2851C9275B600EDA3EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3115D29E1C9275B600EDA3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3115D29F1C9275B600EDA3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3115D2A11C9275B600EDA3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonPhotoKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3115D2A21C9275B600EDA3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonPhotoKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3115D2A41C9275B600EDA3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LemonPhotoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonPhotoKit.app/LemonPhotoKit";
+			};
+			name = Debug;
+		};
+		3115D2A51C9275B600EDA3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LemonPhotoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonPhotoKit.app/LemonPhotoKit";
+			};
+			name = Release;
+		};
+		3115D2A71C9275B600EDA3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LemonPhotoKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LemonPhotoKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3115D2A81C9275B600EDA3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LemonPhotoKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skye.LemonPhotoKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LemonPhotoKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3115D26E1C9275B500EDA3EF /* Build configuration list for PBXProject "LemonPhotoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3115D29E1C9275B600EDA3EF /* Debug */,
+				3115D29F1C9275B600EDA3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3115D2A01C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3115D2A11C9275B600EDA3EF /* Debug */,
+				3115D2A21C9275B600EDA3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3115D2A31C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3115D2A41C9275B600EDA3EF /* Debug */,
+				3115D2A51C9275B600EDA3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3115D2A61C9275B600EDA3EF /* Build configuration list for PBXNativeTarget "LemonPhotoKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3115D2A71C9275B600EDA3EF /* Debug */,
+				3115D2A81C9275B600EDA3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3115D26B1C9275B500EDA3EF /* Project object */;
+}
